@@ -26,4 +26,4 @@ dist-ssr
 # firebase
 .firebaserc
 firebase.json
-package-lock.jso
+package-lock.json
