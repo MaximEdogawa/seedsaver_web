@@ -1,9 +1,11 @@
 <template>
   <header class="bg-neutral-50 py-2">
+    
     <nav
-      class="flex items-center justify-between max-w-7xl mx-auto px-4 base:px-6 lg:px-8"
+      class="flex items-center justify-center mx-auto "
     >
-      <div class="flex items-center">
+    
+      <div class="flex items-center px-2">
         <!-- Logo -->
         <div class="flex-shrink-0">
           <a href="/">
@@ -37,11 +39,6 @@
               to="/explainers"
               class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 px-3 py-2 rounded-md text-base font-medium"
               >EXPLAINERS</router-link
-            >
-            <router-link
-              to="/faq"
-              class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 px-3 py-2 rounded-md text-base font-medium"
-              >FAQ</router-link
             >
             <router-link
               to="/donate"
@@ -125,11 +122,6 @@
               to="/explainers"
               class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 block px-3 py-2 rounded-md text-base font-medium"
               >EXPLAINERS</router-link
-            >
-            <router-link
-              to="/faq"
-              class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 block px-3 py-2 rounded-md text-base font-medium"
-              >FAQ</router-link
             >
             <router-link
               to="/donate"

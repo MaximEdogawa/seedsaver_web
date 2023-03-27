@@ -4,7 +4,7 @@
     :style="{ backgroundImage: `url(${backgroundUrl})` }"
   >
     <div
-      class="flex w-full h-full justify-center p-4 bg-emerald-600 bg-opacity-10"
+      class="flex w-full h-full justify-center p-4 bg-black bg-opacity-20"
     >
       <div
         class="block max-w-3xl xs:max-w-l border-4 border-transparent rounded-xl shadow drop-shadow-2xl"
@@ -17,7 +17,7 @@
       </div>
     </div>
     <div
-      class="grid justify-center bg-emerald-600 bg-opacity-10 drop-shadow-2xl"
+      class="grid justify-center bg-black bg-opacity-20 drop-shadow-2xl"
     >
       <h1
         class="font-sans font-semibold 2xl:text-5xl sm:text-xl md:text-3xl text-neutral-50 text-center"
@@ -140,7 +140,7 @@
           Create Keys for custody solution
         </li>
         <li>
-          Scan Private Keys, Encrypted Priv Key, SpendBundle
+          Scan Private Keys, Encrypted Private Keys, SpendBundle
         </li>
         <li>
           Backup Private Keys flow
@@ -196,6 +196,26 @@
         transaction.
       </p>
     </div>
+    <div
+        class="p-8 flex flex-row justify-items-stretch justify-evenly gap-2 drop-shadow-2xl"
+      >
+        <button
+          class="p-2 font-sans font-bold text-xs 2xl:text-base sm:text-xs md:text-xs text-neutral-50 bg-emerald-500 shadow-lg shadow-emerald-500/50 rounded-full hover:bg-emerald-500 drop-shadow-2xl"
+        >
+          <a
+            href="https://github.com/MaximEdogawa/seedsaver_wallet/releases"
+            target="_blank"
+          >
+            DOWNLOAD THE LASTEST APP RELEASE (ANDROID APK)
+          </a>
+        </button>
+      </div>
+  </div>
+  <div
+      class="p-8 flex flex-row justify-items-stretch justify-evenly gap-2 drop-shadow-2xl text-center"
+    >
+    © 2023 SeedSaver: Air-gapped DIY Chia Signing Device and more. <br>
+    Designed by MaximEdogawa.xch
   </div>
 </template>
 <script setup lang="ts">
