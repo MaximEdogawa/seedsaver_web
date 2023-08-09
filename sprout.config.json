@@ -1,0 +1,13 @@
+{
+  "store_id": "f053e151d843f3f538fac4901a0ecc4fc79aab7894132b3cb74bae49c67ac649",
+  "deploy_dir": "./dist",
+  "datalayer_host": "https://localhost:8562",
+  "wallet_host": "https://localhost:9256",
+  "certificate_folder_path": "~/.chia/mainnet/config/ssl",
+  "default_wallet_id": 1,
+  "default_fee": 300000000,
+  "default_mirror_coin_amount": 300000000,
+  "maximum_rpc_payload_size": 26214400,
+  "web2_gateway_port": 41410,
+  "web2_gateway_host": "localhost"
+}
