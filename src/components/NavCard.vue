@@ -40,9 +40,9 @@
 <script setup lang="ts">
 import { link } from "fs";
 import { ref, onMounted } from "vue";
-import raspberry_white from "../assets/raspberry_case_white.png";
-import logo_sign_black from "../assets/logo_sign_black.png";
-import raspberry_gold from "../assets/raspberry_case_gold.png";
+import raspberry_white from "@/assets/raspberry_case_white.jpg";
+import logo_sign_black from "@/assets/logo_sign_black.jpg";
+import raspberry_gold from "@/assets/raspberry_case_gold.jpg";
 
 const imageNumber = ref(0);
 const imagePath = ref("");

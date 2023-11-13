@@ -11,7 +11,7 @@
           <a href="/">
             <img
               class="h-20 w-auto"
-              src="../assets/logo_main_big_black.png"
+              src="@/assets/logo_main_big_black.jpg"
               alt="Seedsaver"
             />
           </a>

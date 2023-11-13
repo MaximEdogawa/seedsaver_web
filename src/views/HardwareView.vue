@@ -111,7 +111,7 @@
     <div
       class="block max-w-xl xs:max-w-l border-transparent rounded-xl shadow drop-shadow-2xl"
     >
-      <img class="rounded-t-lg" src="../assets/hardware_whave_share.jpg" />
+      <img class="rounded-t-lg" src="@/assets/hardware_whave_share.jpg" />
     </div>
   </div>
   <div
@@ -122,8 +122,8 @@
   </div>
 </template>
 <script setup lang="ts">
-import backgroundUrl from "../assets/raspbeerypi_zero_banner.jpg";
-import hardware_full from "../assets/hardware_full_components.jpg";
-import hardware_raspberrypi_zero from "../assets/hardware_raspberrypi_zero.jpg";
-import hardware_camera from "../assets/hardware_camera.jpg";
+import backgroundUrl from "@/assets/raspbeerypi_zero_banner.jpg";
+import hardware_full from "@/assets/hardware_full_components.jpg";
+import hardware_raspberrypi_zero from "@/assets/hardware_raspberrypi_zero.jpg";
+import hardware_camera from "@/assets/hardware_camera.jpg";
 </script>

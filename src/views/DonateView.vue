@@ -35,7 +35,7 @@
   </div></template>
 
 <script setup lang="ts">
-import backgroundUrl from "../assets/raspbeerypi_zero_banner.jpg";
-import hardware_full from "../assets/logo_main_big_black.png";
+import backgroundUrl from "@/assets/raspbeerypi_zero_banner.jpg";
+import hardware_full from "@/assets/logo_main_big_black.jpg";
 
 </script>
