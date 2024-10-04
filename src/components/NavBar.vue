@@ -1,17 +1,13 @@
 <template>
   <header class="bg-neutral-50 py-2">
-    
-    <nav
-      class="flex items-center justify-center mx-auto "
-    >
-    
+    <nav class="flex items-center justify-center mx-auto">
       <div class="flex items-center px-2">
         <!-- Logo -->
         <div class="flex-shrink-0">
           <a href="/">
             <img
               class="h-20 w-auto"
-              src="@/assets/logo_main_big_black.jpg"
+              src="/src/assets/logo_main_big_black.jpg"
               alt="Seedsaver"
             />
           </a>
@@ -104,37 +100,37 @@
     >
       <div class="px-2 pt-2 pb-3 space-y-1 base:px-3">
         <router-link
-              to="/"
-              class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 block px-3 py-2 rounded-md text-base font-medium"
-              >OVERVIEW</router-link
-            >
-            <router-link
-              to="/hardware"
-              class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 block px-3 py-2 rounded-md text-base font-medium"
-              >HARDWARE</router-link
-            >
-            <router-link
-              to="/software"
-              class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 block px-3 py-2 rounded-md text-base font-medium"
-              >SOFTWARE</router-link
-            >
-            <router-link
-              to="/explainers"
-              class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 block px-3 py-2 rounded-md text-base font-medium"
-              >EXPLAINERS</router-link
-            >
-            <router-link
-              to="/donate"
-              class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 block px-3 py-2 rounded-md text-base font-medium"
-              >DONATE</router-link
-            >
+          to="/"
+          class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 block px-3 py-2 rounded-md text-base font-medium"
+          >OVERVIEW</router-link
+        >
+        <router-link
+          to="/hardware"
+          class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 block px-3 py-2 rounded-md text-base font-medium"
+          >HARDWARE</router-link
+        >
+        <router-link
+          to="/software"
+          class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 block px-3 py-2 rounded-md text-base font-medium"
+          >SOFTWARE</router-link
+        >
+        <router-link
+          to="/explainers"
+          class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 block px-3 py-2 rounded-md text-base font-medium"
+          >EXPLAINERS</router-link
+        >
+        <router-link
+          to="/donate"
+          class="text-bg-slate-900 hover:bg-gradient-to-r hover:from-green-300 hover:to-emerald-300 block px-3 py-2 rounded-md text-base font-medium"
+          >DONATE</router-link
+        >
       </div>
     </div>
   </header>
 </template>
 
 <script setup lang="ts">
-import { ref} from "vue";
+import { ref } from "vue";
 import { reactive } from "vue";
 const open = ref(false);
 

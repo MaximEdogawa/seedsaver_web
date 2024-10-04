@@ -36,9 +36,7 @@
           LAST RELEASE
         </a>
       </button>
-      <p class="py-4">
-        2. Unzip the “seedener_x.x.x._armhf.img.gz” file
-      </p>
+      <p class="py-4">2. Unzip the “seedener_x.x.x._armhf.img.gz” file</p>
       <p class="py-4">
         3. Use the Balena Etcher or a similar tool to write the unzipped .img
         image file to a microsd card
@@ -54,31 +52,29 @@
       <p class="py-4">5. Install Smarthphone app:</p>
 
       <button
-          class="p-2 font-sans font-medium text-xs 2xl:text-base sm:text-xs md:text-xs text-neutral-50 bg-emerald-500 shadow-lg shadow-emerald-500/50 rounded-full hover:bg-emerald-500 drop-shadow-2xl"
+        class="p-2 font-sans font-medium text-xs 2xl:text-base sm:text-xs md:text-xs text-neutral-50 bg-emerald-500 shadow-lg shadow-emerald-500/50 rounded-full hover:bg-emerald-500 drop-shadow-2xl"
+      >
+        <a
+          href="https://github.com/MaximEdogawa/seedsaver_wallet/releases"
+          target="_blank"
         >
-          <a
-            href="https://github.com/MaximEdogawa/seedsaver_wallet/releases"
-            target="_blank"
-          >
-            APP RELEASE (ANDROID APK)
-          </a>
-        </button>
-
+          APP RELEASE (ANDROID APK)
+        </a>
+      </button>
     </div>
     <div
       class="block max-w-xl xs:max-w-l border-transparent rounded-xl shadow drop-shadow-2xl"
     >
-      <img class="rounded-t-lg" src="@/assets/hardware_whave_share.jpg" />
+      <img class="rounded-t-lg" src="/src/assets/hardware_whave_share.jpg" />
     </div>
-    
   </div>
   <div
     class="p-8 flex flex-row justify-items-stretch justify-evenly gap-2 drop-shadow-2xl text-center"
   >
     © 2023 SeedSaver: Air-gapped DIY Chia Signing Device and more. <br />
     Designed by MaximEdogawa.xch
-  </div></template
->
+  </div>
+</template>
 <script setup lang="ts">
-import backgroundUrl from "@/assets/raspbeerypi_zero_banner.jpg";
+import backgroundUrl from "/src/assets/raspbeerypi_zero_banner.jpg";
 </script>

@@ -3,22 +3,18 @@
     class="bg-fixed justify-center border-2 border-transparent rounded-xl"
     :style="{ backgroundImage: `url(${backgroundUrl})` }"
   >
-    <div
-      class="flex w-full h-full justify-center p-4 bg-black bg-opacity-20"
-    >
+    <div class="flex w-full h-full justify-center p-4 bg-black bg-opacity-20">
       <div
         class="block max-w-3xl xs:max-w-l border-4 border-transparent rounded-xl shadow drop-shadow-2xl"
       >
         <img
           class="rounded-xl"
-          src="@/assets/logo_slogan_gray_small.gif"
+          src="/src/assets/logo_slogan_gray_small.gif"
           alt="Display"
         />
       </div>
     </div>
-    <div
-      class="grid justify-center bg-black bg-opacity-20 drop-shadow-2xl"
-    >
+    <div class="grid justify-center bg-black bg-opacity-20 drop-shadow-2xl">
       <h1
         class="font-sans font-semibold 2xl:text-5xl sm:text-xl md:text-3xl text-neutral-50 text-center"
       >
@@ -136,36 +132,16 @@
       <ul
         class="list-disc w-1/2 font-sans font-medium 2xl:text-xl sm:text-base md:text-base text-gray-700 text-justify drop-shadow-2xl"
       >
-        <li>
-          Create Keys for custody solution
-        </li>
-        <li>
-          Scan Private Keys, Encrypted Private Keys, SpendBundle
-        </li>
-        <li>
-          Backup Private Keys flow
-        </li>
-        <li>
-          Export Public Keys via QR
-        </li>
-        <li>
-          Export Encrypted Private Keys via QR
-        </li>
-        <li>
-          Export Transcribe Private Keys via mark down QR view
-        </li>
-        <li>
-          Sign Spend Bundle with Private Keys
-        </li>
-        <li>
-          Merge Spend Bundle Signed Parts
-        </li>
-        <li>
-          Export Signed Spend Bundle via QR Transfer Loop
-        </li>
-        <li>
-          Rekey Priv Keys
-        </li>
+        <li>Create Keys for custody solution</li>
+        <li>Scan Private Keys, Encrypted Private Keys, SpendBundle</li>
+        <li>Backup Private Keys flow</li>
+        <li>Export Public Keys via QR</li>
+        <li>Export Encrypted Private Keys via QR</li>
+        <li>Export Transcribe Private Keys via mark down QR view</li>
+        <li>Sign Spend Bundle with Private Keys</li>
+        <li>Merge Spend Bundle Signed Parts</li>
+        <li>Export Signed Spend Bundle via QR Transfer Loop</li>
+        <li>Rekey Priv Keys</li>
       </ul>
     </div>
     <div class="py-4 flex justify-center">
@@ -179,12 +155,12 @@
         is accomplished using a two-way QR code transfer loop exchange process.
         Information about a proposed transaction is displayed by the wallet
         software on your computer’s screen, encoded in multiple QR codes, and
-        you scan in the transaction information using SeedSaver’s-Sign
-        built-in camera. Information about the proposed transaction is then
-        displayed on the SeedSaver-Sign screen. Using cryptographic
-        signatures, SeedSaver-Sign then proves that it has the correct private
-        keys to authorize the spend bundles, and QR codes demonstrating that
-        signed spend bundle displayed on SeedSaver’s-Sign screen.
+        you scan in the transaction information using SeedSaver’s-Sign built-in
+        camera. Information about the proposed transaction is then displayed on
+        the SeedSaver-Sign screen. Using cryptographic signatures,
+        SeedSaver-Sign then proves that it has the correct private keys to
+        authorize the spend bundles, and QR codes demonstrating that signed
+        spend bundle displayed on SeedSaver’s-Sign screen.
       </p>
     </div>
     <div class="py-4 flex justify-center">
@@ -197,28 +173,28 @@
       </p>
     </div>
     <div
-        class="p-8 flex flex-row justify-items-stretch justify-evenly gap-2 drop-shadow-2xl"
+      class="p-8 flex flex-row justify-items-stretch justify-evenly gap-2 drop-shadow-2xl"
+    >
+      <button
+        class="p-2 font-sans font-bold text-xs 2xl:text-base sm:text-xs md:text-xs text-neutral-50 bg-emerald-500 shadow-lg shadow-emerald-500/50 rounded-full hover:bg-emerald-500 drop-shadow-2xl"
       >
-        <button
-          class="p-2 font-sans font-bold text-xs 2xl:text-base sm:text-xs md:text-xs text-neutral-50 bg-emerald-500 shadow-lg shadow-emerald-500/50 rounded-full hover:bg-emerald-500 drop-shadow-2xl"
+        <a
+          href="https://github.com/MaximEdogawa/seedsaver_wallet/releases"
+          target="_blank"
         >
-          <a
-            href="https://github.com/MaximEdogawa/seedsaver_wallet/releases"
-            target="_blank"
-          >
-            DOWNLOAD THE LASTEST APP RELEASE (ANDROID APK)
-          </a>
-        </button>
-      </div>
+          DOWNLOAD THE LASTEST APP RELEASE (ANDROID APK)
+        </a>
+      </button>
+    </div>
   </div>
   <div
-      class="p-8 flex flex-row justify-items-stretch justify-evenly gap-2 drop-shadow-2xl text-center"
-    >
-    © 2023 SeedSaver: Air-gapped DIY Chia Signing Device and more. <br>
+    class="p-8 flex flex-row justify-items-stretch justify-evenly gap-2 drop-shadow-2xl text-center"
+  >
+    © 2023 SeedSaver: Air-gapped DIY Chia Signing Device and more. <br />
     Designed by MaximEdogawa.xch
   </div>
 </template>
 <script setup lang="ts">
-import backgroundUrl from "@/assets/raspbeerypi_zero_banner.jpg";
+import backgroundUrl from "/src/assets/raspbeerypi_zero_banner.jpg";
 import NavCard from "../components/NavCard.vue";
 </script>
