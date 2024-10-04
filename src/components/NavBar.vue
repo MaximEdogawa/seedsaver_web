@@ -4,10 +4,10 @@
       <div class="flex items-center px-2">
         <!-- Logo -->
         <div class="flex-shrink-0">
-          <a href="/">
+          <a href="">
             <img
               class="h-20 w-auto"
-              src="/src/assets/logo_main_big_black.jpg"
+              src="@/assets/logo_main_big_black.jpg"
               alt="Seedsaver"
             />
           </a>

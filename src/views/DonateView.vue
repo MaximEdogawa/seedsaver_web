@@ -40,6 +40,6 @@
 </template>
 
 <script setup lang="ts">
-import backgroundUrl from "/src/assets/raspbeerypi_zero_banner.jpg";
-import hardware_full from "/src/assets/logo_main_big_black.jpg";
+import backgroundUrl from "@/assets/raspbeerypi_zero_banner.jpg";
+import hardware_full from "@/assets/logo_main_big_black.jpg";
 </script>

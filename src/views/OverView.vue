@@ -9,7 +9,7 @@
       >
         <img
           class="rounded-xl"
-          src="/src/assets/logo_slogan_gray_small.gif"
+          src="@/assets/logo_slogan_gray_small.gif"
           alt="Display"
         />
       </div>
@@ -195,6 +195,6 @@
   </div>
 </template>
 <script setup lang="ts">
-import backgroundUrl from "/src/assets/raspbeerypi_zero_banner.jpg";
+import backgroundUrl from "@/assets/raspbeerypi_zero_banner.jpg";
 import NavCard from "../components/NavCard.vue";
 </script>
