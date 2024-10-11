@@ -4,7 +4,11 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: "",
+      path: "/",
+      redirect: "/owerview",
+    },
+    {
+      path: "/owerview",
       component: () => import("../views/OverView.vue"),
     },
     {
